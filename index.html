@@ -8,7 +8,26 @@
     <title>Weather Application</title>
 </head>
 <body>
-    
+    <section class="search-section" id="api-section">
+        <div class="container">
+            <h1 class="heading">Weather Application</h1>
+
+            <form>
+                <input type="text" placeholder="Search for a City" id="search" autofocus>
+                <button type="submit">Search</button>
+                <span class="message" id="message"> </span>
+            </form>
+        </div>
+
+    </section>
+
+    <section class="api-call">
+        <div class="container">
+            <ul class="cities" id="cities"> </ul>
+        </div>
+    </section>
+
+
 
     <script type="text/javascript" src="app.js"></script>
 </body>
